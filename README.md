@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Polaris Wallet Link
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This smart contract contains the logic for discord to wallet address linking via an on-chain transaction.
+By listening to this event, one can update a private database to store blockchain-related activity and manipulate that data with cheaper costs.
 
-Try running some of the following tasks:
+## v.1.0.0
+Initial implementation
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+## v.1.0.1 - Not live
+Changing linking prices
+
+## v1.0.2 - Not live
+Linking with Polaris Token
+
+
